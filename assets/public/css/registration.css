@@ -1,0 +1,61 @@
+.registration h3{
+    text-align: center;
+}
+
+/*#contact label {*/
+    /*display: inline-block;*/
+    /*max-width: 100%;*/
+    /*padding-top: 5px;*/
+    /*margin-bottom: 2px;*/
+    /*font-weight: 700;*/
+/*}*/
+
+.registration input[type=text], select{
+    padding: 7px 10px;
+    margin: 3px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.registration input[type=text]{
+    width: 100%;
+}
+
+.registration select{
+    width: 65%;
+}
+
+.btn-reg{
+    background: #b2cc02;
+    margin-bottom: 10px;
+}
+
+.btn-cont{
+    background: #b2cc02;
+    margin-bottom: 10px;
+}
+
+/*#phone {*/
+    /*width: 65%;*/
+/*}*/
+
+.registration input[type=submit], input[type=button]{
+    margin-top: 15px;
+}
+
+::-webkit-input-placeholder  {
+    text-transform: none;
+    color: rgb(190, 188, 188);
+    font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+    text-transform: none;
+    color: rgb(190, 188, 188);
+    font-style: italic;
+}
+input {
+    outline: none;
+}
+
+

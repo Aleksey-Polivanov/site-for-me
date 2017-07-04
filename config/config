@@ -1,0 +1,12 @@
+module.exports = {
+
+    port: process.env.PORT || 3000,
+
+    contentful: {
+        spaceId1: "Top-Secret",
+        spaceId2: 'Top-Secret',
+        personalKey: 'Top-Secret',
+        host: 'api.contentful.com'
+    }
+};
+

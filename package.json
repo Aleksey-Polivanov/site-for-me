@@ -1,0 +1,31 @@
+{
+  "name": "site-for-it-climb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bower": "^1.8.0",
+    "contentful-management": "^3.7.6",
+    "ejs": "^2.5.6",
+    "email-validator": "^1.0.7",
+    "express": "^4.14.0",
+    "express-error-handler": "^1.1.0",
+    "fs-finder": "^1.8.1",
+    "lodash": "^4.17.4",
+    "nodemailer": "^4.0.1",
+    "serve-favicon": "^2.4.3",
+    "winston": "^2.3.1"
+  },
+  "engines": {
+    "node": "7.5.x",
+    "npm": "4.1.x"
+  }
+}
